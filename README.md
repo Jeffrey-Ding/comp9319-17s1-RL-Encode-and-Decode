@@ -19,11 +19,13 @@ When rlencode and rldecode are given with one argument, which is the input file,
 For example, suppose that the content of the input ASCII file called simple.txt is aAAbbbBBBBcccccCCCCCCdDDeeeEEEE
 
 Then > ./rlencode simple.txt
+
 aAAb[0]B[1]c[2]C[3]dDDe[0]E[1]
 
 > ./rlencode simple.txt simple.rle
 
 > ./rldecode simple.rle
+
 aAAb[0]B[1]c[2]C[3]dDDe[0]E[1]
 
 
